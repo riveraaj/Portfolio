@@ -16,7 +16,7 @@ export function Home() {
                 </h1>
             </div>
             <div id="home-container-img-setup">
-                <img src="../../../public/assets/images/setup.png" alt="Setup Gamer" className="img-fluid" />
+                <img src="./assets/images/setup.png" alt="Setup Gamer" className="img-fluid" />
             </div>
             <div id="home-container-social">
                 <IconList iconsList={iconSocialMediaList} />

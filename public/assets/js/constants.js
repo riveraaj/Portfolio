@@ -1,7 +1,7 @@
 export const projects = [{
         id: 1,
         type: 'web',
-        image: '../../../public/assets/images/veterinary.png',
+        image: './assets/images/veterinary.png',
         title: 'Veterinary Webpage',
         description: 'This is a project with the theme of a veterinarian in which all the information related to the filing process and dynamic information queries are managed. This project has a public part and an administrative part. In this you can find the correct use of HTML tags and CSS rules, Use of Bootstrap, JQuery framework, PHP for session management, database (CRUD), sending emails and generating PDF files.',
         technologies: 'HTML5 / CSS / JavaScript / Bootstrap / JQuery / PHP / MYSQL',
@@ -11,7 +11,7 @@ export const projects = [{
         id: 2,
         type: 'web',
         name: 'Authentication Webpage',
-        image: '../../../public/assets/images/auth-app.png',
+        image: './assets/images/auth-app.png',
         description: 'This is a project of an application with authentication, both manually and through some services like Google, Facebook, GitHub and Twitter.',
         technologies: 'HTML5 / CSS / JavaScript / Bootstrap / C# / .NET / MVC / Entity Framework / ASP.NET / SQLServer',
         githubLink: 'https://github.com/riveraaj/Authentication-App'
@@ -20,7 +20,7 @@ export const projects = [{
         id: 3,
         type: 'web',
         name: 'Search Engine',
-        image: '../../../public/assets/images/search.png',
+        image: './assets/images/search.png',
         description: 'This is a project that simulates the google search engine on a smaller scale. It has: Routine, search and SpiderIndex services Database repositories Among others, such as controllers and part of the front-end (google search clone)',
         technologies: 'HTML5 / CSS / JAVA / Spring Boot / MYSQL',
         githubLink: 'https://github.com/riveraaj/Search-Engine'
@@ -29,7 +29,7 @@ export const projects = [{
         id: 4,
         type: 'web',
         name: 'Text Encryptor',
-        image: '../../../public/assets/images/encryptor.png',
+        image: './assets/images/encryptor.png',
         description: 'This is the first Challenge of the ONE - Oracle Next Education program. This application has the function of encrypting and decoding text messages in a simple way. With the aim of exchanging information with other people in a safe and fun way.',
         technologies: 'HTML5 / CSS / JavaScript',
         githubLink: 'https://github.com/riveraaj/Text-Encryptor'
@@ -38,7 +38,7 @@ export const projects = [{
         id: 5,
         type: 'desktop',
         name: 'Calculator App',
-        image: '../../../public/assets/images/calculator.png',
+        image: './assets/images/calculator.png',
         description: 'This is a project that uses dynamic memory allocation, the development of recursive algorithms, and the use of lists and stacks as tools for designing, and solving problems of software.',
         technologies: 'JAVA',
         githubLink: 'https://github.com/riveraaj/Oh_My_Cat'
@@ -47,7 +47,7 @@ export const projects = [{
         id: 6,
         type: 'mobile',
         name: 'Theater Box Office App',
-        image: '../../../public/assets/images/mobile-app.png',
+        image: './assets/images/mobile-app.png',
         description: 'Solution for the purchase of tickets and admission to the event of several theaters, through a events calendar, capacity and ticket.',
         technologies: 'Android Studio / Gradle / Kotlin / XML / Firebase / Cloud Firestore',
         githubLink: 'https://github.com/riveraaj/TicketAJJAM'
@@ -56,7 +56,7 @@ export const projects = [{
         id: 7,
         type: 'desktop',
         name: 'Batch Handler',
-        image: '../../../public/assets/images/batch-handler.png',
+        image: './assets/images/batch-handler.png',
         description: 'This is a project made in console to manage batches of files through previous configuration that allows us to copy and move files in batches and delete files depending on the type of user configuration, in turn it has a log and deletion of the configuration of the registered lots.',
         technologies: 'Python',
         githubLink: 'https://github.com/riveraaj/Batch-handling'
@@ -65,7 +65,7 @@ export const projects = [{
         id: 8,
         type: 'desktop',
         name: 'Inventory',
-        image: '../../../public/assets/images/inventory.png',
+        image: './assets/images/inventory.png',
         description: 'This is an article inventory management project which works with the SQL Server database, has a Login, inventory registration, inventory allocation to three different warehouses and, in turn, has a user manual.',
         technologies: 'JAVA / SQLServer',
         githubLink: 'https://github.com/riveraaj/Inventory'

@@ -4,7 +4,7 @@ export function Contact() {
     return (
         <section id="Contact">
             <div id="contact-header">
-                <img src="../../../public/assets/images/contact.png" alt="Me in a computer" className="rounded img-fluid" />
+                <img src="./assets/images/contact.png" alt="Me in a computer" className="rounded img-fluid" />
                 <h2>CONTACT ME</h2>
                 <hr />
             </div>

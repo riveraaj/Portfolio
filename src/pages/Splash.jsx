@@ -4,7 +4,7 @@ export function Splash() {
     return (
         <section className="splash-container">
             <div className="avatar">
-                <img src="../../../public/assets/images/nav-second.png" alt="Button Portfolio" />
+                <img src="./assets/images/nav-second.png" alt="Button Portfolio" />
             </div>
             <div className="content">
                 <h1>Software Engineer</h1>

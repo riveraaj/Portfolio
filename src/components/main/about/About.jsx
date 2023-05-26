@@ -4,7 +4,7 @@ export function About() {
     return (
         <section id="About">
             <div id="about-header">
-                <img src="../../../public/assets/images/overview.png" alt="Me closing an eye" className="img-fluid" />
+                <img src="./assets/images/overview.png" alt="Me closing an eye" className="img-fluid" />
                 <h2>OVERVIEW</h2>
                 <hr />
             </div>
