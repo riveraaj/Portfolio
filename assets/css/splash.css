@@ -1,0 +1,64 @@
+/* Splash */
+.splash-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/bg-constellation-purple.png);
+    background-size: cover;
+}
+
+.splash-container .avatar {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 5px var(--secondary-color) solid;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+    animation: floatv2 6s ease-in-out infinite;
+}
+
+.splash-container .avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.splash-container .content {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.splash-container .content h1 {
+    font-size: 2em;
+    margin: 10px 0 0 0;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: var(--purple-dark);
+    font-weight: 900;
+}
+
+.splash-container .content p {
+    margin-top: 30px;
+}
+
+.splash-container .content span a i {
+    font-size: 2em;
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.splash-container .content span a i:hover {
+    color: var(--purple-dark) !important;
+}

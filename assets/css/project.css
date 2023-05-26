@@ -1,0 +1,220 @@
+/* Projects */
+#Projects {
+    width: 100%;
+    background-image: url("../images/bg-constellation-purple.png");
+    background-size: cover;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#projects-header {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+#projects-header h2 {
+    font-size: 1.7em;
+    margin-top: 100px;
+}
+
+#projects-header hr {
+    width: 4em;
+    opacity: 1;
+    margin: auto;
+    border: 2px solid;
+}
+
+#nav-projects {
+    width: 100%;
+    margin-top: 10%;
+}
+
+#nav-projects ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-projects ul li {
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+#nav-projects ul li.active {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+#grid-projects {
+    width: 100%;
+    padding: 5% 5%;
+    margin: 0;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid-projects .project {
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    position: relative;
+}
+
+#grid-projects .hidden {
+    display: none;
+}
+
+#grid-projects .project img {
+    width: 100%;
+    min-height: 200px !important;
+}
+
+#grid-projects .project .project-data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    min-height: 200px !important;
+    opacity: 0;
+    padding: 0 5px;
+    background: rgba(0, 0, 0, 0.904);
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+}
+
+#grid-projects .project .project-data h3 {
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+#grid-projects .project .project-data p {
+    font-weight: 500;
+    padding: 0 15px;
+    color: var(--purple-dark);
+}
+
+#grid-projects .project .project-data button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    background: rgba(151, 151, 151, 0.21);
+    border-radius: 100px;
+}
+
+#grid-projects .project .project-data:hover {
+    opacity: 1;
+}
+
+#grid-projects .project .modal .card .card-body {
+    text-align: left;
+    background-color: var(--skills);
+}
+
+#grid-projects .project .modal {
+    z-index: 10000000;
+}
+
+#grid-projects .project .modal .card .card-body h5 {
+    color: var(--secondary-color);
+}
+
+#grid-projects .project .modal .card .card-body p {
+    color: var(--secondary-text);
+}
+
+#grid-projects .project .modal .card .card-body .button-modal-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--primary-color) !important;
+}
+
+#grid-projects .project .modal .card .card-body .button-modal-card a i {
+    font-size: 2em;
+}
+
+#grid-projects .project .modal .card .card-body .button-modal-card button {
+    background-color: transparent;
+    border: none;
+
+}
+
+#grid-projects .project .modal .card .card-body .button-modal-card button i {
+    color: var(--primary-color);
+    font-size: 1.5em;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    /* Projects */
+    #projects-header {
+        padding: 17%;
+        padding-bottom: 7%;
+    }
+
+    #projects-header h2 {
+        margin-top: 30px;
+    }
+
+    #grid-projects {
+        padding: 0 15%;
+        padding-bottom: 140px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    /* Projects */
+    #projects-header {
+        padding: 1px 10%;
+    }
+
+    #projects-header h2 {
+        margin-top: 150px;
+    }
+
+    #nav-projects {
+        margin-top: 8%;
+    }
+
+    #nav-projects ul {
+        width: 50%;
+        margin: auto;
+    }
+
+    #grid-projects {
+        width: 100%;
+        padding: 5%;
+        margin: 0;
+        padding-bottom: 170px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #grid-projects .project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    #grid-projects .project .project-data {
+        width: 97%;
+    }
+}

@@ -1,0 +1,111 @@
+/* Skills */
+#Skills {
+    width: 100%;
+    background-color: var(--skills);
+}
+
+#skills-header {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+#skills-header h2 {
+    font-weight: 700;
+    font-size: 1.7em;
+    margin-top: 80px;
+}
+
+#skills-header hr {
+    width: 2em;
+    margin: auto;
+    opacity: 1;
+    border: 2px solid;
+}
+
+#skills-container-general {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 4% 10%;
+    padding-bottom: 20%;
+}
+
+.skills-general {
+    width: 100%;
+    color: var(--secondary-text);
+    margin-bottom: 10%;
+}
+
+.skills-general h3 {
+    font-weight: 500;
+    font-size: 1.3;
+    color: var(--purple-dark);
+}
+
+.skills-general p {
+    font-size: 1em;
+    max-width: 450px;
+    font-weight: 400;
+}
+
+.grid-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-left: -5px;
+}
+
+.grid-skills .skill {
+    width: fit-content;
+    padding: 10px;
+    color: var(--purple-dark);
+    background-color: var(--container-purple-dark);
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    /* Skills */
+    #skills-header {
+        padding: 5%;
+    }
+
+    .grid-skills {
+        width: 70%;
+    }
+
+    .skills-general p {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    /* Skills */
+    #skills-header {
+        width: 100%;
+        padding: 0;
+        padding-top: 5%;
+        text-align: center;
+        color: var(--secondary-color);
+    }
+
+    #skills-container-general {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 3% 10%;
+        padding-bottom: 6%;
+    }
+
+    .skills-general {
+        width: 45%;
+        padding: 20px;
+        margin: 2.5%;
+    }
+}
