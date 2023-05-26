@@ -1,0 +1,149 @@
+/* Contact */
+#Contact {
+    width: 100%;
+    background-image: url("../images/spectrum-gradient-reverse.png");
+    background-position: top;
+}
+
+#contact-header {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#contact-header img {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 100px;
+}
+
+#contact-header h2 {
+    margin-top: 40px;
+    font-size: 1.7em;
+}
+
+#contact-header hr {
+    width: 5em;
+    opacity: 1;
+    margin: auto;
+    border: 2px solid;
+}
+
+#contact-info {
+    width: 100%;
+    padding: 10%;
+    padding-top: 0;
+    text-align: center;
+}
+
+#contact-info p {
+    color: var(--secondary-text);
+}
+
+#contact-info ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple-dark);
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#contact-info ul li {
+    width: fit-content;
+    background-color: var(--container-purple-dark);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#toUp {
+    opacity: 0;
+    padding-top: 20px;
+}
+
+#toUp a {
+    position: relative;
+    top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    text-decoration: none;
+    height: 30px;
+    margin: auto;
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    /* Contact */
+    #contact-info {
+        padding-bottom: 8%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    /* Contact */
+    #Contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20%;
+    }
+
+    #contact-header {
+        width: 45%;
+        padding: 1px;
+        margin: 20% 2.5%;
+    }
+
+    #contact-header img {
+        width: 100%;
+        max-width: 350px;
+        margin-top: 0;
+    }
+
+    #contact-header h2 {
+        margin-top: 10px;
+    }
+
+    #contact-header hr {
+        width: 5em;
+        opacity: 1;
+        margin: auto;
+        border: 2px solid;
+    }
+
+    #contact-info {
+        width: 45%;
+        padding: 1px;
+        text-align: center;
+        margin: 20% 2.5%;
+    }
+
+    #contact-info p {
+        margin-top: 70px;
+    }
+
+    #contact-info ul li {
+        margin-left: 0;
+    }
+
+    #toUp {
+        opacity: 1;
+        padding-top: 20px;
+    }
+
+    #toUp a {
+        top: 17px;
+        width: 35px;
+        height: 35px;
+    }
+}
