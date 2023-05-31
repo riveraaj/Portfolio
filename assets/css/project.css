@@ -46,6 +46,7 @@
     margin: 5px;
     font-weight: 500;
     font-size: 1em;
+    cursor: pointer;
 }
 
 #nav-projects ul li.active {
