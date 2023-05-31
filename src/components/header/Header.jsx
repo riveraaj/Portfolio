@@ -8,16 +8,12 @@ import { linkMobileTabletList } from '../../../public/assets/js/constants';
 import '../../../public/assets/css/nav.css'
 
 export function Header() {
-    useEffect(() => {
-        attachEventListeners();
-        return () => {
-            removeEventListeners();
-        };
-    }, []);
 
     useEffect(() => {
+        attachEventListeners();
         attachScrollEventListener();
         return () => {
+            removeEventListeners();
             removeScrollEventListener();
         };
     }, []);

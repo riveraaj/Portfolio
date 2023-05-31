@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
 import { Splash } from './Splash';
 import { Header } from '../components/header/Header';
 import { Main } from '../components/main/Main';
 import { Footer } from '../components/footer/Footer';
 import { CSSTransition } from 'react-transition-group';
+import { useSplash } from '../hooks/useSplash';
 import '../../public/assets/css/normalize.css';
 import '../../public/assets/css/anim.css';
 import '../../public/assets/css/portfolio.css';
@@ -13,17 +13,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 export function Portfolio() {
-  const [showSplash, setShowSplash] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowSplash(false);
-    }, 6000);
-
-    return () => {
-      clearTimeout(timer);
-    };
-  }, []);
+  
+  const showSplash = useSplash();
 
   return (
     <>
