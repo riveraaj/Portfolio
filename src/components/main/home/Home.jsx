@@ -9,7 +9,7 @@ export function Home() {
             <div id="home-header">
                 <h1>
                     Jonathan Rivera
-                    <ProfessionSpan id="fronted" classN="show">Front End</ProfessionSpan>
+                    <ProfessionSpan id="frontend" classN="show">Front End</ProfessionSpan>
                     <ProfessionSpan id="backend" classN="hide">Back End</ProfessionSpan>
                     <ProfessionSpan id="software" classN="hide">Software</ProfessionSpan>
                     Developer

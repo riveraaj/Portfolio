@@ -12,7 +12,7 @@ export function Contact() {
                 <p>Have a question or want to work together?</p>
                 <ul id="contact-info-contacts">
                     <li className="contact">jonathandavidr7@gmail.com</li>
-                    <li className="contact">https://www.linkedin.com/in/jriveraaa/</li>
+                    <li className="contact">www.linkedin.com/in/jriveraaa/</li>
                 </ul>
             </div>
             <div id="stop-nav"></div>
