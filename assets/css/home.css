@@ -19,7 +19,7 @@
     margin: auto;
     margin-top: 100px;
     position: relative;
-    max-width: 300px;
+    max-width: 320px;
     font-size: 2.5em;
     font-weight: 700;
     text-align: center;
@@ -32,6 +32,7 @@
 #backend,
 #software {
     position: absolute;
+    top: 48px;
     left: 0;
     right: 0;
 }
@@ -87,11 +88,19 @@
     margin: 10px;
     font-size: 1.5rem;
 }
+@media screen and (max-width:374px) {
+    #backend,
+    #software {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+    }
+}
 
 @media screen and (min-width:768px) and (max-width:1023px) {
 
     /* Home */
-
     #home-container-img-setup {
         width: 100%;
         padding: 0 13%;
@@ -124,8 +133,8 @@
         color: var(--primary-color);
     }
     
-    #fronted{
-        margin-right: 7px;
+    #frontend{
+        margin-right: 5px;
     }
 
     #backend,
@@ -135,7 +144,7 @@
     }
 
     #home-container-img-setup {
-        padding: 5% 32.5%;
+        padding: 3% 35%;
     }
 
     #home-container-social {
