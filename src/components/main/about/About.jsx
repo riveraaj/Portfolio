@@ -11,7 +11,7 @@ export function About() {
             <div id="about-container-data">
                 <p>
                     I&apos;m a
-                    <strong>Software Engineer</strong> interested in performing tasks in the area of
+                    <strong> Software Engineer</strong> interested in performing tasks in the area of
                     <b> Front-End, Back-End, IT </b>
                     as a
                     <strong> developer</strong>.
