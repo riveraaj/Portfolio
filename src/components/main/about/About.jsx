@@ -12,7 +12,7 @@ export function About() {
                 <p>
                     I&apos;m a
                     <strong>Software Engineer</strong> interested in performing tasks in the area of
-                    <b>Front-End, Back-End, IT </b>
+                    <b> Front-End, Back-End, IT </b>
                     as a
                     <strong> developer</strong>.
                 </p>
